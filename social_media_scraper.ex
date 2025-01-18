@@ -7,6 +7,7 @@ defmodule SocialMediaScraper do
   @encryption_key "your_secret_key_here" # Ensure this is stored securely
   @timeout 5000
 
+
   # Struct to represent a post
   defmodule Post do
     defstruct [:id, :content, :timestamp, :author]
